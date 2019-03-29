@@ -80,11 +80,19 @@ header{
 }
 
 	
-.mainarticle h2{
+.mainarticle h2,{
 	font-family: 'VT323', monospace;
 	font-size: 2.4em;
 }
+.articlewrapper h2{
+	font-family: 'Lobster', cursive;
+	font-size: 2.4em;
+}
 
+.articlewrapper h3{
+	font-family: 'Lobster', cursive;
+	font-size: 1.4em;
+}
 
 .footer ,.articlefooter {
 	grid-row:11/12;
@@ -93,6 +101,7 @@ header{
 	color:white;
 	background-color: black;
 }
+
 
 fieldset li{
 	list-style:none;
@@ -134,6 +143,12 @@ img{
 	grid-column:2/4;
 	grid-template-columns:auto;
 	grid-gap:1em;
+	padding:2em;
+}
+
+.articlewrapper{
+	grid-row:2/7;
+	grid-column:2/4;
 	padding:2em;
 }
 
