@@ -61,7 +61,7 @@ header{
 .latest{
 	grid-row:3/4;
 	grid-column:2/4;
-	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.479);
 	
 }
 
