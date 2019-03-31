@@ -111,11 +111,16 @@ fieldset li{
 
 
 img{
-	width:25em;
+	width:25em;	
+}
+
+#mainimage{
+	height:18em;
 }
 
 #subimage{
 	width: 15em;
+	height:10.8em;
 }
 
 	
