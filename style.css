@@ -5,7 +5,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: #333;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	line-height: 1.5;
 	text-align: center;
 	align-items:center;
@@ -17,7 +17,7 @@ body {
   }
 
   .logo{
-	width:26em;
+	width:25em;
 	  
   }
 
@@ -32,7 +32,7 @@ body {
   float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: 0.9em 1em;
+  padding: 0.9em 2em;
   text-decoration: none;
   font-size: 112.5%;
 }
@@ -62,12 +62,14 @@ header{
 	grid-row:3/4;
 	grid-column:2/4;
 	background-color: rgba(0, 0, 0, 0.479);
+	font-size:0.9em;
+
 	
 }
 
 .mainarticle, .secondarticle, .sidebar, .advert{
 	background-color:#808080;	
-	padding:0.6em;
+	padding:0.8em;
 	width:26em;
 	text-align:center;
 	border-style:solid;
@@ -141,7 +143,7 @@ img{
 	grid-template-columns:0.2em auto 0.2em;
 	grid-template-rows:auto;
 	padding:1em;
-	grid-gap:1em;	
+	grid-gap:0.5em;	
 }
 
 .wrapper{
@@ -149,13 +151,13 @@ img{
 	grid-column:2/4;
 	grid-template-columns:auto;
 	grid-gap:1em;
-	padding:2em;
+	padding:1em;
 }
 
 .articlewrapper{
 	grid-row:2/7;
 	grid-column:2/4;
-	padding:2em;
+	padding:1em;
 }
 
 .bottomwrapper{
